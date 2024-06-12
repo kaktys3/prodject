@@ -1,0 +1,21 @@
+@import '../colors';
+
+.section2 {
+    border-top: 2px solid map-get($colors, E5E5E5);
+}
+
+.div-general-footer-section2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding: 36px 0px 36px;
+
+    &__a {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: map-get($color, #cda274);
+    }
+}

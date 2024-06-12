@@ -1,0 +1,33 @@
+@import '../colors';
+
+.div-general-main-section5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 89px;
+
+    &__img1 {
+        width: 132px;
+        height: 43px;
+    }
+
+    &__img2 {
+        width: 103px;
+        height: 103px;
+    }
+
+    &__img3 {
+        width: 164px;
+        height: 43px;
+    }
+
+    &__img4 {
+        width: 145px;
+        height: 45px;
+    }
+
+    &__img5 {
+        width: 117px;
+        height: 48px;
+    }
+}

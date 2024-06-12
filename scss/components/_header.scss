@@ -1,0 +1,19 @@
+@import '../colors';
+
+.div-logotype {
+        justify-content: center;
+        align-items: center;
+}
+
+header {
+        display: flex;
+}
+
+nav {
+        display: flex;
+        gap: 40px;
+}
+
+.span {
+        font-size: 50px;
+}

@@ -1,0 +1,64 @@
+@import '../colors';
+
+.div-general-footer-section1 {
+    display: flex;
+    padding: 80px 0px 80px;
+    gap: 16px;
+
+    &__div-logo-social-networks {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0px 60px 180px 0px;
+    }
+
+    &__div-logo {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__p {
+        width: 326px;
+    }
+
+    &__div-social-networks {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    img {
+        transition-property: transform;
+        transition-duration: 2s;
+        transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+        &:hover {
+            transform: rotate(1080deg);
+        }
+    }
+}
+
+.div-content-footer-section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    padding: 0px 97px 30px 0px;
+
+    &__h6 {
+        font-size: 25px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.div-content2-footer-section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    padding: 0px 15px 124px 0px;
+}

@@ -1,0 +1,35 @@
+@import '../colors';
+
+.div-general-main-section1 {
+    display: flex;
+    flex-direction: column;
+    padding: 188px 725px 260px 120px;
+    background-image: url(/img/image12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 19px;
+
+    &__content-order {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    &__button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            letter-spacing: 0.04em;
+            color: map-get($colors, #fff);
+            width: 207px;
+            padding: 22px 67px 22px 34px;
+            background-color: map-get($colors, #292f36);
+            background-image: url(/img/image35.png);
+            background-repeat: no-repeat;
+            border-radius: 18px;
+            border: 2px solid map-get($colors, #292f36);
+    }
+}

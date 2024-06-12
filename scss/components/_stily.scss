@@ -1,0 +1,121 @@
+@import '../colors';
+
+a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: map-get($colors, #292f36);
+    transition-property: color;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    &:hover {
+        color: map-get($colors, #cda274);
+    }
+
+    &:focus {
+        color: map-get($colors, #cda274);
+    }
+}
+
+.container {
+    &--main {
+        width: 1400;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.div-general-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 505px;
+    padding: 26px 120px 18px;
+    margin: 0 auto;
+
+    &--header {
+        width: 1400;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.h1 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 120%;
+    letter-spacing: 0em;
+    color: map-get($colors, #292f36);
+}
+
+p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: map-get($colors, #4d5053);
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    padding: 0px 120px 0px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 156%;
+    letter-spacing: 0.01em;
+    color: map-get($colors, #292f36);
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: 0em;
+    color: map-get($colors, #292f36);
+    margin: 0px;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 156%;
+    letter-spacing: 0.01em;
+    color: map-get($colors, #292f36);
+    margin: 0px;
+}
+
+h3 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: map-get($colors, #cda274);
+    margin: 0px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    letter-spacing: 0em;
+    color: map-get($colors, #fff);
+    margin: 0px;
+    padding: 0px;
+}

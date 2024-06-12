@@ -1,0 +1,30 @@
+@import '../colors';
+
+.div-general-main-section7 {
+    display: flex;
+    gap: 16px;
+    padding: 140px 0px;
+}
+
+.div-content1-main-section7 {
+    padding: 35px 55px 10px 33px;
+    border-right: 1px solid map-get($color, #cda274);
+}
+
+.div-content2-main-section7 {
+    padding: 35px 86px 10px 65px;
+    border-right: 1px solid map-get($color, #cda274);
+}
+
+.div-content3-main-section7 {
+    padding: 35px 78px 10px 57px;
+    border-right: 1px solid map-get($color, #cda274);
+}
+
+.div-content4-main-section7 {
+    padding: 35px 67px 10px 47px;
+}
+
+.section7 {
+    background: map-get($colors, #fff);
+}

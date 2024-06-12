@@ -1,0 +1,59 @@
+@import '../colors';
+
+.div-general-main-section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70px;
+    padding: 103px 50px 120px 50px;
+    gap: 45px;
+    background: map-get($color, #fff);
+    ;
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.div-information-personal-main-section4 {
+    display: flex;
+    gap: 16px;
+}
+
+.div-information-personal {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 30px;
+    padding: 50px 30px 45px 35px;
+    background-color: map-get($color, #fff);
+    align-items: center;
+    justify-content: center;
+
+    &__div-personal-photo {
+        display: flex;
+        align-items: center;
+        padding: 0px 49px 0px 0px;
+        gap: 20px;
+    }
+
+    &__div-personal-photo2 {
+        display: flex;
+        align-items: center;
+        padding: 0px 65px 0px 0px;
+        gap: 20px;
+    }
+
+    &__p {
+        font-size: 18px;
+    }
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    padding: 140px 0px
+}
